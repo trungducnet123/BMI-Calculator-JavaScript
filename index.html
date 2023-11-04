@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="description" content="A handy Calculator for calculating your BMI (Body Mass Index), that works on all Devices.">
+        <meta name="description" content="Tính chỉ số BMI (Body Mass Index) của bạn, hoạt động trên mọi Thiết bị, chính xác nhất từ Kabala.">
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
         <meta name="viewport" content="width=device-width" />
 
@@ -30,7 +30,7 @@
         <meta name="msapplication-TileImage" content="img/favicon-144.png">
         <meta name="msapplication-config" content="/browserconfig.xml">
 
-        <title>BMI(Body Mass Index) Calculator</title>
+        <title>Tính chỉ số BMI (Body Mass Index) từ Kabala</title>
 
         <link rel="stylesheet" href="css/styles.css?v=1.0">
         
@@ -104,19 +104,15 @@
     </head>
     <body>
         <div class="container">
-            <!-- GitHub Ribbon - Start -->
-
-            <a href="https://github.com/AYIDouble/Binary-Calculator-JavaScript" class="ribbon"><img style="position: absolute; top: 0; right: 0; border: 0;" src="img/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
-
-            <!-- GitHub Ribbon - End -->
+          
 
             <header class="col-lg-12 header">
-                <h1>BMI(Body Mass Index) Calculator </h1>
+                <h1>BMI (Body Mass Index) Calculator </h1>
                     <span class="col-lg-12 titleSpan"> 
                         <ul class="col-lg-4">
                         </ul>
                         <ul class="col-lg-4">
-                          <li>Free interactive BMI(Body Mass Index) Calculator </li>
+                          <li><a href="https://bmi.kabala.vn/">Tính chỉ số BMI (Body Mass Index) từ Kabala</a> </li>
                         </ul>
                         <ul class="col-lg-4">
                         </ul>
@@ -127,10 +123,10 @@
 
                 <div class="jumbotron col-lg-10 offset-lg-1 optionsBox">
 
-                    <div class="container optionContainer">
-                        <h1 class="display-6 h1Options">Options</h1>
-                        <hr class="my-4">
-
+                    <div class="container optionContainer" style="text-align: left;">
+                        <!--<h1 class="display-6 h1Options">Options</h1>-->
+                        <!--<hr class="my-4">-->
+						<p>Chỉ số khối cơ thể (BMI), cũng gọi là chỉ số thể trọng- thường được biết đến với tên viết tắt BMI theo tên tiếng Anh body mass index, là một cách nhận định cơ thể của một người là gầy hay béo bằng một chỉ số. Chỉ số này do nhà khoa học người Bỉ Adolphe Quetelet đưa ra năm 1832. Chỉ số khối cơ thể của một người tính bằng trọng lượng (kg) chia cho bình phương chiều cao (đo theo mét hoặc cm). Con số này có thể tính theo công thức trên hoặc chiếu theo bảng tiêu chuẩn. Chỉ số này có thể giúp xác định một người bị béo phì hay bị suy dinh dưỡng một cách khoa học căn cứ trên số liệu về hình dáng, chiều cao và cân nặng cơ thể.</p>
                         <div class="input-group input-group-lg optionRow">
 
                             <!-- Bit Selectbox - Start -->
@@ -151,21 +147,21 @@
                             <!-- Bit Selectbox - End -->
                             <!-- Option Buttons - Signed/Unsigned -->
                             
-                            <div class="input-group mb-3 offset-lg-1 col-lg-2 optionButtonsContainer" title="Signed/Unsigned Function not implemented yet.">
+                            <!--<div class="input-group mb-3 offset-lg-1 col-lg-2 optionButtonsContainer" title="Signed/Unsigned Function not implemented yet.">
                                 <p class="optionButtons">
-
+									
                                     <!-- TODO : Signed Function -->
 
                                     <!-- <input type="checkbox" id="switch-SignedUnsigned" disabled="disabled" data-on-text="Signed" data-off-text="Unsigned" data-on-color="success" data-off-color="danger" data-label-text="Byte" data-inverse="true"> -->
 
-                                </p>
-                            </div>
+                              <!--   </p>
+                            </div>-->
                                 
 
                             <!-- Option Buttons - Signed/Unsigned - End-->
                             <!-- Option Buttons - AC -->
 
-                            <div class="input-group mb-3 offset-lg-7 col-lg-1">
+                             <!--<div class="input-group mb-3 offset-lg-7 col-lg-1">
                                 <p class="optionButtons AC">
                                     <button class="button button-2 button-2c" id="ACButton">AC</button>
                                 </p>
@@ -174,19 +170,19 @@
                             <!-- Option Buttons - AC - End -->
                             <!-- Hexdecimal,Ternary Selectbox - Start -->
 
-                            <div class="input-group mb-3 offset-lg-1 col-lg-3 rightBox">
+                             <!--<div class="input-group mb-3 offset-lg-1 col-lg-3 rightBox">
                             <!--
                                 <div class="input-group-prepend">
                                     <label class="input-group-text" id="inputGroup-sizing" for="inputGroupSelectSystem">System</label>
                                 </div>
                             -->
-                                <select class="custom-select" id="inputGroupSelectSystem">
+                              <!--   <select class="custom-select" id="inputGroupSelectSystem">
                                     <option value="16" selected>Hexadecimal(16)</option> <!-- 16 -->
-                                    <option value="8">Octal(8)</option> <!-- 8 -->
-                                    <option value="4">Quaternary(4)</option> <!-- 4 -->
-                                    <option value="3">Ternary(3)</option> <!-- 3 -->
-                                </select>
-                            </div>
+                                   <!--   <option value="8">Octal(8)</option> <!-- 8 -->
+                                   <!--   <option value="4">Quaternary(4)</option> <!-- 4 -->
+                                   <!--   <option value="3">Ternary(3)</option> <!-- 3 -->
+                                 <!-- </select>
+                            </div>-->
 
                             <!-- Hexdecimal,Ternary Selectbox - End -->
 
@@ -262,8 +258,189 @@
 
             </section>
         
-            <section class="color-2 col-lg-12 footer">
-                <a href="https://github.com/AYIDouble" class="gitHubText" target="_blank"><p>Created by AYIDouble (Alpay Yildirim)</p> <p> <img src="img/GitHub_Logo_White.png" alt="GitHub Logo" class="gitHubLogo"></img></p></a>
+            <section class="color-2 col-lg-12">
+				<div style="text-align:left;color: #000;padding: 30px 30px;" class="jumbotron col-lg-10 offset-lg-1">
+<h2><span id="C&aacute;ch_t&iacute;nh_BMI">C&aacute;ch t&iacute;nh BMI</span></h2>
+<p><strong>Hệ mũ:</strong></p>
+<p>Gọi W l&agrave;&nbsp;khối lượng&nbsp;của một người (t&iacute;nh bằng&nbsp;kg) v&agrave; H l&agrave;&nbsp;chiều cao&nbsp;của người đ&oacute; (t&iacute;nh bằng&nbsp;m), chỉ số khối cơ thể được t&iacute;nh theo c&ocirc;ng thức:</p>
+<center><img style="width: 20.864ex; height: 5.343ex;" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6643efb8bea627151a78d1a3c33801ea52801ca6" alt="{\displaystyle BMI(kg/m^{2})={\frac {W}{H^{2}}}}" aria-hidden="true"></center>
+<p><br>C&ocirc;ng thức t&iacute;nh BMI khi W được t&iacute;nh bằng&nbsp;pound&nbsp;v&agrave; H được t&iacute;nh bằng&nbsp;inch&nbsp;l&agrave;:</p>
+<p><img style="width: 26.712ex; height: 5.343ex; display: block; margin-left: auto; margin-right: auto;" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5dc6a5c476acbd1e889eca57bf7674b8ff5043e0" alt="{\displaystyle BMI(lb/in^{2})={W \over H^{2}}\times 703}" aria-hidden="true"></p>
+<p>Ngo&agrave;i ra c&ograve;n c&oacute; một chỉ số kh&aacute;c l&agrave; BMI nguy&ecirc;n tố, được t&iacute;nh bằng c&aacute;ch lấy BMI (kg/m&sup2;) chia cho 25.</p>
+<p><strong>Hệ m&eacute;t(metric):</strong></p>
+<ul>
+<li>bmi=(c&acirc;n nặng (kg)/chiều cao^2(M^2).V&iacute; dụ&nbsp;: một người 1m70 nặng 63kg th&igrave; sẽ lấy 63 kg : 1.70m^2.</li>
+<li>Kết quả BMI=21.8</li>
+</ul>
+<p><em>Lưu &yacute;: L&agrave;m tr&ograve;n c&aacute;c số&nbsp;c&oacute; thể l&agrave;m tr&ograve;n.</em></p>
+<hr>
+<h2><span id="Ph.C3.A2n_lo.E1.BA.A1i_theo_WHO"></span><span id="Ph&acirc;n_loại_theo_WHO">Ph&acirc;n loại theo WHO</span></h2>
+<h3><span id="Ph.C3.A2n_lo.E1.BA.A1i_cho_ng.C6.B0.E1.BB.9Di_Ch.C3.A2u_.C3.82u"></span><span id="Ph&acirc;n_loại_cho_người_Ch&acirc;u_&Acirc;u">Ph&acirc;n loại cho người Ch&acirc;u &Acirc;u</span>[sửa&nbsp;|&nbsp;sửa m&atilde; nguồn]</h3>
+<p>Theo&nbsp;WHO, người lớn c&oacute; BMI trong phạm vi từ 18,50 đến 25,00 l&agrave; người&nbsp;b&igrave;nh thường. Dưới 18,5 l&agrave;&nbsp;gầy, từ 25 đến 30,00 l&agrave; người b&eacute;o v&agrave; tr&ecirc;n 30 l&agrave;&nbsp;b&eacute;o ph&igrave;.</p>
+<table>
+<tbody>
+<tr>
+<th rowspan="2">Ph&acirc;n loại</th>
+<th colspan="2">BMI (kg/m&sup2;)</th>
+<th colspan="2">BMI nguy&ecirc;n tố</th>
+</tr>
+<tr>
+<th>Từ</th>
+<th>Đến</th>
+<th>Từ</th>
+<th>Đến</th>
+</tr>
+<tr>
+<th>Thiếu c&acirc;n</th>
+<th>&nbsp;</th>
+<th>18,5</th>
+<th>&nbsp;</th>
+<th>0,74</th>
+</tr>
+<tr>
+<td>Thiếu c&acirc;n rất nặng</td>
+<td>&nbsp;</td>
+<td>15,0</td>
+<td>&nbsp;</td>
+<td>0,60</td>
+</tr>
+<tr>
+<td>Thiếu c&acirc;n nặng</td>
+<td>15,0</td>
+<td>16,0</td>
+<td>0,60</td>
+<td>0,64</td>
+</tr>
+<tr>
+<td>Thiếu c&acirc;n</td>
+<td>16,0</td>
+<td>18,5</td>
+<td>0,64</td>
+<td>0,74</td>
+</tr>
+<tr>
+<th>B&igrave;nh thường</th>
+<th>18,5</th>
+<th>25,0</th>
+<th>0,74</th>
+<th>1,00</th>
+</tr>
+<tr>
+<th>Thừa c&acirc;n</th>
+<th>25,0</th>
+<th>&nbsp;</th>
+<th>1,00</th>
+<th>1,20</th>
+</tr>
+<tr>
+<td>Tiền b&eacute;o ph&igrave;</td>
+<td>25,0</td>
+<td>30,0</td>
+<td>1,00</td>
+<td>1,20</td>
+</tr>
+<tr>
+<th>B&eacute;o ph&igrave;</th>
+<th>30,0</th>
+<th>&nbsp;</th>
+<th>1,20</th>
+<th>&nbsp;</th>
+</tr>
+<tr>
+<td>B&eacute;o ph&igrave; độ I</td>
+<td>30,0</td>
+<td>35,0</td>
+<td>1,20</td>
+<td>1,40</td>
+</tr>
+<tr>
+<td>B&eacute;o ph&igrave; độ II</td>
+<td>35,0</td>
+<td>40,0</td>
+<td>1,40</td>
+<td>1,60</td>
+</tr>
+<tr>
+<td>B&eacute;o ph&igrave; độ III</td>
+<td>40,0</td>
+<td>&nbsp;</td>
+<td>1,60</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<h3 style="text-align: left;"><span id="Ph.C3.A2n_lo.E1.BA.A1i_cho_ng.C6.B0.E1.BB.9Di_Ch.C3.A2u_.C3.81_-_Th.C3.A1i_B.C3.ACnh_D.C6.B0.C6.A1ng"></span><span id="Ph&acirc;n_loại_cho_người_Ch&acirc;u_&Aacute;_-_Th&aacute;i_B&igrave;nh_Dương">Ph&acirc;n loại cho người Ch&acirc;u &Aacute; - Th&aacute;i B&igrave;nh Dương</span></h3>
+<p>Việc đ&aacute;nh gi&aacute; ph&acirc;n loại t&igrave;nh trạng dinh dưỡng ở người lớn theo chỉ số khối ở người Ch&acirc;u &Aacute; - Th&aacute;i B&igrave;nh Dương c&oacute; hơi kh&aacute;c với Ch&acirc;u &Acirc;u để ph&ugrave; hợp với nh&acirc;n chủng học. Sau đ&acirc;y l&agrave; bảng ph&acirc;n loại.</p>
+<table><caption>&nbsp;</caption>
+<tbody>
+<tr>
+<th>Ph&acirc;n loại</th>
+<th>BMI (kg/m&sup2;)</th>
+</tr>
+<tr>
+<td><strong>Thiếu c&acirc;n</strong></td>
+<td><strong>&lt; 18,5</strong></td>
+</tr>
+<tr>
+<td><strong>B&igrave;nh thường</strong></td>
+<td><strong>18,50 - 22,99</strong></td>
+</tr>
+<tr>
+<td>Thừa c&acirc;n</td>
+<td>23,00 - 24,99</td>
+</tr>
+<tr>
+<td><strong>B&eacute;o ph&igrave;</strong></td>
+<td><strong>&ge; 25</strong></td>
+</tr>
+<tr>
+<td>B&eacute;o ph&igrave; độ I</td>
+<td>25,00 - 29,99</td>
+</tr>
+<tr>
+<td>B&eacute;o ph&igrave; độ II</td>
+<td>30-34.99</td>
+</tr>
+<tr>
+<td>B&eacute;o ph&igrave; độ III</td>
+<td>35&lt;</td>
+</tr>
+</tbody>
+</table>
+<h3><span id="Ng.C6.B0.E1.BB.9Di_l.E1.BB.9Bn_h.C6.A1n_20_tu.E1.BB.95i"></span><span id="Người_lớn_hơn_20_tuổi">Người lớn hơn 20 tuổi</span></h3>
+<h4><span id="Ph.C3.A2n_lo.E1.BA.A1i_ki.E1.BB.83u_1"></span><span id="Ph&acirc;n_loại_kiểu_1">Ph&acirc;n loại kiểu</span></h4>
+<ul>
+<li>BMI &lt; 18: người&nbsp;gầy<sup>[<em><span title="Tuy&ecirc;n bố n&agrave;y cần tham khảo đến c&aacute;c nguồn đ&aacute;ng tin cậy. (ng&agrave;y 6 th&aacute;ng 1 năm 2013)">cần dẫn nguồn</span></em>]</sup></li>
+<li>BMI = 18,5 - 25: người&nbsp;b&igrave;nh thường</li>
+<li>BMI = 25 - 30: người&nbsp;b&eacute;o ph&igrave; độ I</li>
+<li>BMI = 30 - 40: người&nbsp;b&eacute;o ph&igrave; độ II</li>
+<li>BMI &gt; 40: người&nbsp;b&eacute;o ph&igrave; độ III</li>
+</ul>
+<h4><span id="Ph.C3.A2n_lo.E1.BA.A1i_ki.E1.BB.83u_2"></span><span id="Ph&acirc;n_loại_kiểu_2">Ph&acirc;n loại kiểu 2</span></h4>
+<p>Nam:</p>
+<ul>
+<li>&gt;16 BMI:người gầy độ 3</li>
+<li>16&lt;=BMI&lt;17:người gầy độ 2</li>
+<li>17&gt;=BMI &lt; 18.5: người&nbsp;gầy&nbsp;độ 1</li>
+<li>18.5 &lt;= BMI &lt; 25: người b&igrave;nh thường</li>
+<li>25 &lt;= BMI &lt; 30: người&nbsp;thừa c&acirc;n</li>
+<li>30,&lt;=BMI &lt;35: người&nbsp;b&eacute;o ph&igrave;&nbsp;độ 1</li>
+<li>35&lt;=BMI&lt;40:người b&eacute;o ph&igrave; độ 2</li>
+<li>40+BMI;người b&eacute;o ph&igrave; độ 3</li>
+</ul>
+<p>Nữ: (đang update)</p>
+<h3><span id="Tr.E1.BA.BB_em_2-20_tu.E1.BB.95i"></span><span id="Trẻ_em_2-20_tuổi">Trẻ em 2-20 tuổi</span></h3>
+<p>T&igrave;nh trạng dinh dưỡng ở trẻ em được t&iacute;nh theo c&aacute;ch tương tự như đối với người lớn, nhưng sau đ&oacute; so s&aacute;nh với c&aacute;c gi&aacute; trị ti&ecirc;u biểu cho trẻ c&ugrave;ng giới, c&ugrave;ng độ tuổi. Thay v&igrave; so s&aacute;nh với ngưỡng cố định cho trẻ, chỉ số BMI được so s&aacute;nh với tỷ lệ phần trăm đối với trẻ em c&ugrave;ng giới t&iacute;nh v&agrave; tuổi t&aacute;c.<sup id="cite_ref-10">[10]</sup></p>
+<ol>
+<li>Thiếu c&acirc;n: nếu chỉ số BMI nằm trong v&ugrave;ng gi&aacute; trị nhỏ hơn b&aacute;ch ph&acirc;n vị thứ 5 (percentile &lt; 5th)</li>
+<li>Sức khỏe dinh dưỡng tốt: nếu chỉ số BMI nằm trong khoảng b&aacute;ch ph&acirc;n vị thứ 5 đến 84</li>
+<li>Thừa c&acirc;n: nếu chỉ số BMI nằm trong khoảng b&aacute;ch ph&acirc;n vị 85 đến 94</li>
+<li>B&eacute;o ph&igrave;: nếu chỉ số BMI nằm trong v&ugrave;ng lớn hơn b&aacute;ch ph&acirc;n vị 95&lt;=</li>
+</ol>
+<p>Dựa v&agrave;o thống k&ecirc; to&aacute;n học, người ta c&oacute; thể t&iacute;nh vị tr&iacute; percentile của gi&aacute; trị BMI tương ứng tuổi v&agrave; giới t&iacute;nh. Th&ocirc;ng thường người ta sẽ sử dụng bảng biểu đồ BMI theo khối lượng v&agrave;&nbsp;chiều cao, sử dụng đường viền hoặc m&agrave;u nền cho c&aacute;c b&aacute;ch ph&acirc;n vị BMI kh&aacute;c nhau để dễ d&agrave;ng so s&aacute;nh.</p>
+<hr/>
+				</div>
+                <a href="https://kabala.vn/tools" class="gitHubText" target="_blank"><p>Kabala TOOLS</p> <p> <img src="https://kabala.vn/wp-content/uploads/2022/10/Logo_Kabala_white-e1678696370516.png" alt="Kabala Logo" class="gitHubLogo"></img></p></a>
             </section>
 
         </div><!-- /container -->
