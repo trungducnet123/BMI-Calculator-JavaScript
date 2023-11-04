@@ -33,7 +33,23 @@ a {
 	color: #888;
 	text-decoration: none;
 }
+td, tr, th {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
 
+th {
+    background: #ddd;
+}
+img.gitHubLogo {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.container.optionContainer p {
+    font-size: 15px;
+    text-align: justify;
+}
 a:hover,
 a:active {
 	color: #333;
